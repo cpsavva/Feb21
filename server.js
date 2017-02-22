@@ -12,8 +12,8 @@ function handleRequestOne(request, response) {
   response.end("Is heaven missing an angel?");
 }
 
-function handleRequestTwo (request, respnse){
-	response.end("You need a makeover!")
+function handleRequestTwo (request, response){
+	response.end("You need a makeover!");
 }
 // Here we use the Node HTTP package to create our server.
 // We then pass it the handleRequest function to empower it with functionality.
